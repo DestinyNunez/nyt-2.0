@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  margin: 0 200px 0 200px;
+  margin-top: 10px;
+}
+
+
+/* header */
+header {
+  width: 100%;
+  height: 150px;
+}
+
+.headContainer2 {
+  width: 50%;
+  height: 150px;
+  float: left;
+}
+
+.headContainer1, .headContainer3 {
+  width: 25%;
+  height: 150px;
+  float: left;
+}
+
+/* middle header section */
+.headContainer2 {
+  text-align: center;
+}
+
+.worldCountries {
+  margin-bottom: -5px;
+}
+
+.worldCountries>li {
+  display: inline;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Berkshire Swash;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: -3px;
+}
+
+/* right section header */
+.headContainer3 {
+  text-align: right;
+}
+
+.blue {
+  background: rgb(102, 122, 152);
+  color: white;
+}
+
+.fa-gear {
+  padding-left: 5px;
+}
+
+/* Navigation */
+nav {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-top: solid 3px black;
+  border-bottom: solid 3px lightgray;
+}
+
+.navigationBar>li {
+  display: inline;
+  padding: 5px;
+}
+
+/* main section */
+main {
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* left side container */
+.left {
+  width: 20%;
+  float: left;
+}
+
+/* left/right side content */
+.russia, .spectacle {
+  width: 100%;
+  border-bottom: solid 1px lightgray;
+}
+
+.russia {
+  padding: 20px;
+}
+
+.russia>h6 {
+  text-decoration: underline;
+  font: 18px;
+}
+
+.russia>ul {
+  list-style-type: disc;
+}
+
+.russia>p {
+  font-size: 20px;
+}
+
+.russia>h3 {
+  color: gray;
+}
+
+.russia>h2 {
+  color: lightgray;
+  font-size: 15px;
+}
+
+.russia>h4 {
+  color: black;
+}
+
+h3>span {
+  color: red;
+}
+
+/* middle side container*/
+.middle {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+/* middle content */
+.spectacle>p {
+  font-size: 25px;
+  margin-top: 1px;
+}
+
+.spectacle>h5 {
+  margin-top: 1px;
+}
+
+.spectacle>img {
+  width: 100%;
+}
+
+.video {
+  color: lightgray;
+}
+
+.middleList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middleList>li {
+  list-style-type: disc;
+}
+
+/* right side container */
+.right {
+  width: 30%;
+  float: left;
+  font-size: 14px;
+  text-align: left;
+}
+
+.right > h2 {
+  margin: 2px;
+  text-align: center;
+}
+
+.president, .capital {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.science>p {
+  font-size: 15px;
+}
+
+.football>p {
+  font-size: 15px;
+}
+
+/* bottom right section */
+
+.opinionsBottom {
+  float: left;
+  width: 100%;
+  border-top: solid 2px lightgray;
+}
+
+.insider, .crosswords {
+  width: 50%;
+  height: 100px;
+  border-top: solid 2px lightgray;
+  border-bottom: solid 2px lightgray;
+  float: left;
+  padding-right: 3px;
+  padding-left: 5px;
+}
+
+.insider > p {
+  font-size: 11px;
+}
+
+.fa-plus {
+  font-size: 10px;
+}
+
+.activity {
+  padding: 5px;
+}
+
+
+/* images */
+.images {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 5px;
+  float: right;
+}
+
+.image1 {
+  max-width: 700px;
+  max-height: 700px;
+  padding: 10px;
+  float: right;
+}
